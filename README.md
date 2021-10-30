@@ -14,10 +14,11 @@ Selenium 라이브러리를 이용한 크롤링 코드 입니다. 셀레니움�
 
 - 드라이버 : https://sites.google.com/a/chromium.org/chromedriver/downloads
 
-추가적으로 "Digital Forensic" 키워드로 검색한 결과를 LDA한 과정까지 함께 첨부합니다.
 
 ### LDA 결과
 
+- 추가적으로 "Digital Forensic" 키워드로 검색한 결과를 LDA한 과정까지 함께 첨부합니다.
+- 
 - 크롤링 한 논문 : 2377개(제목, 요약문, 키워드) *요약문이나 키워드가 없는 경우에는 제목만 크롤링
 - 상위 1000개 단어를 보존하여 분석 진행
 - 10개 토픽, 각 토픽 별 10개의 단어 추출
