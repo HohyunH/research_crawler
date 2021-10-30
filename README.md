@@ -22,12 +22,12 @@ Selenium 라이브러리를 이용한 크롤링 코드 입니다. 셀레니움�
 - 상위 1000개 단어를 보존하여 분석 진행
 - 10개 토픽, 각 토픽 별 10개의 단어 추출
 
-'''python
+```python
 from sklearn.decomposition import LatentDirichletAllocation
 lda_model=LatentDirichletAllocation(n_components=10,learning_method='online',random_state=777,max_iter=1)
 
 lda_top=lda_model.fit_transform(X)
-'''
+```
 
 1. Stemming 하지 않은 결과
 ![image](https://user-images.githubusercontent.com/46701548/139521292-ac6d09a0-89ac-4092-965a-e6d8d7406fc2.png)
